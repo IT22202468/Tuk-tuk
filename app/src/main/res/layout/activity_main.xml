@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/menuColour"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="115dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/hometuktuk" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="312dp"
+        android:layout_height="137dp"
+        app:srcCompat="@drawable/appname" />
+
+    <TextView
+        android:id="@+id/Highestscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="10"
+        android:text="@string/Highestscore"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:shadowColor="@color/black"
+        android:shadowRadius="20"
+        android:text="@string/score_0"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="143dp"
+        android:layout_height="85dp"
+        android:layout_margin="15dp"
+        android:backgroundTint="#FFC107"
+        android:gravity="center"
+        android:shadowColor="@color/black"
+        android:shadowRadius="1"
+        android:text="@string/start"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="10sp" />
+
+</LinearLayout>
